@@ -18,4 +18,4 @@ if (isset($result['results']) && is_array($result['results'])) {
     echo '<p> Error, Please Try Again.';
 }
 
-?>
+
