@@ -28,7 +28,7 @@ $result = json_decode($response, true);
 
     if (isset($result['results']) && is_array($result['results'])) {
 
-<?php include 'table.php';?>
+<?php include './table.php';?>
 
 } else {
 echo '<p> Error, Please Try Again.';
