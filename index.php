@@ -19,6 +19,7 @@ $output = $data_output["results"];
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="color-scheme" content="light dark">
+    <title> UOB Student Nationality Data </title>
     <link rel="stylesheet" href="css/pico.min.css">
     <style>
         
@@ -44,6 +45,7 @@ $output = $data_output["results"];
 </head>
 
 <body>
+
     <table class="table table-bordered">
         <thead>
             <tr>
@@ -75,7 +77,5 @@ $output = $data_output["results"];
     </table>
 </body>
 </html>
-
-
 
 
