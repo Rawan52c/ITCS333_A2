@@ -73,7 +73,7 @@ $output = $data_output["results"];
                 ?>
                 <tr>
 
-                <!-- Display data from each key, using 'N/A' if the key is not set -->
+                 <!-- Use the null operator (??) to handle undefined data -->
                     <td><?php echo $student["year"] ?? 'N/A'; ?></td>
                     <td><?php echo $student["semester"] ?? 'N/A'; ?></td>
                     <td><?php echo $student["the_programs"] ?? 'N/A'; ?></td>
