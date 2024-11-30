@@ -74,9 +74,9 @@ $output = $data_output["results"];
                 <tr>
 
                  <!-- Use the null operator (??) to handle undefined data -->
-                    <td><?php echo $student["year"] ?? 'N/A'; ?></td><!-- Display the year -->
-                    <td><?php echo $student["semester"] ?? 'N/A'; ?></td><!-- Display the semester -->
-                    <td><?php echo $student["the_programs"] ?? 'N/A'; ?></td><!-- Display the program name -->
+                    <td><?php echo $student["year"] ?? 'N/A'; ?></td>
+                    <td><?php echo $student["semester"] ?? 'N/A'; ?></td>
+                    <td><?php echo $student["the_programs"] ?? 'N/A'; ?></td>
                     <td><?php echo $student["nationality"] ?? 'N/A'; ?></td>
                     <td><?php echo $student["colleges"] ?? 'N/A'; ?></td>
                     <td><?php echo $student["number_of_students"] ?? 'N/A'; ?></td>
