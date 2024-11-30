@@ -12,7 +12,7 @@ $data_output = json_decode($response, true);
 // Check if the response is valid and contains the 'results' key.
 if (!$data_output || !isset($data_output["results"])) {
 
-    // Terminate execution with an error message if data is missing or invalid.
+    // Execute with an error message if data is missing or invalid.
     die("Something went wrong, Output (data) not found");
 }
 
