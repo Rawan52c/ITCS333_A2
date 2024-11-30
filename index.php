@@ -16,7 +16,7 @@ if (!$data_output || !isset($data_output["results"])) {
     die("Something went wrong, Output (data) not found");
 }
 
-// Extract the 'results' data from the decoded response.
+// Extract 'results' data from the decoded response.
 $output = $data_output["results"];
 
 ?> 
@@ -72,8 +72,8 @@ $output = $data_output["results"];
             foreach ($output as $student) {
                 ?>
                 <tr>
-
-                 <!-- Use the null operator (??) to handle undefined data -->
+                 
+                 <!-- Null operator (??) to handle undefined data -->
                     <td><?php echo $student["year"] ?? 'N/A'; ?></td>
                     <td><?php echo $student["semester"] ?? 'N/A'; ?></td>
                     <td><?php echo $student["the_programs"] ?? 'N/A'; ?></td>
