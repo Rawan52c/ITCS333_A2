@@ -30,6 +30,7 @@ $output = $data_output["results"];
     <link rel="stylesheet" href="css/pico.min.css">
     <style>
         
+        /* Styling for the table to improve readability and design */
         table {
             width: 100%;
             border-collapse: collapse;
