@@ -16,6 +16,7 @@ if (!$data_output || !isset($data_output["results"])) {
     die("Something went wrong, Output (data) not found");
 }
 
+// Extract the 'results' data from the decoded response.
 $output = $data_output["results"];
 
 ?> 
