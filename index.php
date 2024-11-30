@@ -54,6 +54,7 @@ $output = $data_output["results"];
 
 <body>
 
+<!-- Display the data in a table -->
     <table class="table table-bordered">
         <thead>
             <tr>
