@@ -72,6 +72,8 @@ $output = $data_output["results"];
             foreach ($output as $student) {
                 ?>
                 <tr>
+
+                <!-- Display data from each key, using 'N/A' if the key is not set -->
                     <td><?php echo $student["year"] ?? 'N/A'; ?></td>
                     <td><?php echo $student["semester"] ?? 'N/A'; ?></td>
                     <td><?php echo $student["the_programs"] ?? 'N/A'; ?></td>
